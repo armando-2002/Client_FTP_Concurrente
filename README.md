@@ -69,9 +69,8 @@ sudo apt-get install gcc make
 
 # Servidor FTP (para pruebas locales)
 sudo apt-get install vsftpd
-
+```
 ## 🚀Ejecución
-
 Para iniciar el cliente, usa la siguiente sintaxis en la terminal,en donde el numero de puerto es opcional:
 
 ```bash
