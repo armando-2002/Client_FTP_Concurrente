@@ -1,3 +1,0 @@
-Este es el contenido del archivo 1 del cliente.
-Este archivo será subido al servidor usando PUT o APPE.
-Contenido de prueba para demostración.

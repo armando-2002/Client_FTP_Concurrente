@@ -1,1 +1,0 @@
-Archivo concurrent 1 para descargas paralelas
