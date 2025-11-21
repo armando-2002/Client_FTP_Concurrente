@@ -1,11 +1,11 @@
 # Makefile para cliente FTP 
 
-CLTOBJ= TCPftp.o connectsock.o connectTCP.o passivesock.o passiveTCP.o errexit.o
+CLTOBJ= SarangoJ-clienteFTP.o connectsock.o connectTCP.o passivesock.o passiveTCP.o errexit.o
 
-all: TCPftp 
+all: SarangoJ-clienteFTP 
 
-TCPftp:	${CLTOBJ}
-	cc -o TCPftp ${CLTOBJ}
+SarangoJ-clienteFTP:	${CLTOBJ}
+	cc -o SarangoJ-clienteFTP ${CLTOBJ}
 
 clean:
 	rm $(CLTOBJ) 

@@ -19,7 +19,7 @@ El proyecto incluye un `Makefile` para facilitar la compilación. Se deben asegu
     ```bash
     make
     ```
-3.  Esto generará el ejecutable llamado: `TCPftp`
+3.  Esto generará el ejecutable llamado: `SarangoJ-clienteFTP`
 
 > **Nota:** Para limpiar los archivos generados y recompilar desde cero, usa `make clean`.
 
@@ -74,5 +74,5 @@ sudo apt-get install vsftpd
 Para iniciar el cliente, usa la siguiente sintaxis en la terminal,en donde el numero de puerto es opcional:
 
 ```bash
-./TCPftp <HOST> [PUERTO]
+./SarangoJ-clienteFTP <HOST> [PUERTO]
 
